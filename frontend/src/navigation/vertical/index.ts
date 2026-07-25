@@ -8,6 +8,14 @@ export default [
     icon: { icon: 'ri-home-line' },
   },
   {
+    heading: 'Finance',
+  },
+  {
+    title: 'Transactions',
+    to: { name: 'transaction-page' },
+    icon: { icon: 'ri-money-baht-line' },
+  },
+  {
     heading: 'Admin',
   },
   {

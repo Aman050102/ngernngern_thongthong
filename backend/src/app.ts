@@ -34,7 +34,10 @@ export function createApp(containerFactory: (env: Partial<Bindings>) => Containe
           version: '1.0.0',
           description: 'Hono backend running on Cloudflare Workers (D1 + KV) and AWS Lambda',
         },
-        tags: [{ name: 'Users', description: 'User management' }],
+        tags: [
+          { name: 'Users', description: 'User management' },
+          { name: 'Transactions', description: 'Income and expense management' },
+        ],
       },
     })
   )
